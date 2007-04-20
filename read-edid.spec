@@ -1,13 +1,13 @@
 %define name read-edid
 %define version 1.4.1
-%define release %mkrel 3
+%define release %mkrel 4
 
 Summary: Get monitor details
 Name: %{name}
 Version: %{version}
 Release: %{release}
-URL: http://web.onetel.net.uk/~elephant/john/programs/linux/read-edid/
-Source0: http://ape.n3.net/programs/linux/read-edid/%{name}-%{version}.tar.bz2
+URL: http://john.fremlin.de/programs/linux/read-edid
+Source0: http://john.fremlin.de/programs/linux/read-edid/%{name}-%{version}.tar.bz2
 License: GPL
 Group: System/Configuration/Other
 BuildRoot: %{_tmppath}/%{name}-buildroot
@@ -20,7 +20,7 @@ program parse-edid parses the data and prints out a human readable
 summary.
 
 %prep
-%setup
+%setup -q
 
 %build
 %configure2_5x
