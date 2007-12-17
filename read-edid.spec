@@ -10,7 +10,6 @@ URL: http://john.fremlin.de/programs/linux/read-edid
 Source0: http://john.fremlin.de/programs/linux/read-edid/%{name}-%{version}.tar.bz2
 License: GPL
 Group: System/Configuration/Other
-BuildRoot: %{_tmppath}/%{name}-buildroot
 Exclusivearch: %ix86
 
 %description
