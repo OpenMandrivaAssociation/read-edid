@@ -1,6 +1,6 @@
 %define name read-edid
 %define version 1.4.1
-%define release %mkrel 4
+%define release %mkrel 6
 
 Summary: Get monitor details
 Name: %{name}
