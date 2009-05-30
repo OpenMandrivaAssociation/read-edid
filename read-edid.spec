@@ -1,17 +1,13 @@
-%define name read-edid
-%define version 1.4.1
-%define release %mkrel 6
-
 Summary: Get monitor details
-Name: %{name}
-Version: %{version}
-Release: %{release}
-URL: http://john.fremlin.de/programs/linux/read-edid
-Source0: http://john.fremlin.de/programs/linux/read-edid/%{name}-%{version}.tar.bz2
+Name: read-edid
+Version: 2.0.0
+Release: %mkrel 1
+URL: http://www.polypux.org/projects/read-edid/
+Source0: http://www.polypux.org/projects/read-edid/%{name}-%{version}.tar.gz
 License: GPL
 Group: System/Configuration/Other
+BuildRequires: libx86-devel
 BuildRoot: %{_tmppath}/%{name}-buildroot
-Exclusivearch: %ix86
 
 %description
 This package will try to read the monitor details directly from the
