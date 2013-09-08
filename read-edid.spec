@@ -7,6 +7,7 @@ Source0:	http://www.polypux.org/projects/read-edid/%{name}-%{version}.tar.gz
 License:	GPLv2
 Group:		System/Configuration/Other
 BuildRequires:	libx86-devel
+BuildRequires:	cmake
 Patch0:		read-edid-3.0.0-include.patch
 Patch1:		read-edid-3.0.0-sharedir.patch
 
