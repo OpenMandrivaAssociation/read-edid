@@ -1,2 +1,4 @@
+removed_sources:
+  read-edid-2.0.0.tar.gz: 8605a242c0a104a70ab1a5cdd616fffbac52d6c8
 sources:
-  "read-edid-2.0.0.tar.gz": 8605a242c0a104a70ab1a5cdd616fffbac52d6c8
+  read-edid-3.0.0.tar.gz: 7b22a595fa4e229ce09f6c7d752788b64e7be12f
