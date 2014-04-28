@@ -9,8 +9,6 @@ License:	GPLv2
 Group:		System/Configuration/Other
 BuildRequires:	libx86-devel
 BuildRequires:	cmake
-Patch0:		read-edid-3.0.0-include.patch
-Patch1:		read-edid-3.0.0-sharedir.patch
 
 %description
 This package will try to read the monitor details directly from the
@@ -27,20 +25,17 @@ doc files for %{name}
 
 %prep
 %setup -q
-%apply_patches
 
 %build
 %cmake
 %make
 
 %install
-mv get-edid.man get-edid.1
 %makeinstall_std -C build
 
 %files doc
-%{_docdir}/%{name}-%{version}/*
+%{_docdir}/%{name}/*
 
 %files
 %{_mandir}/man1/get-edid.1.*
 %{_bindir}/*-edid*
-
