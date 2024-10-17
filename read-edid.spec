@@ -3,7 +3,7 @@ Summary:	Get monitor details
 Name:		read-edid
 Version:	3.0.1
 Release:	2
-URL:		http://www.polypux.org/projects/read-edid/
+URL:		https://www.polypux.org/projects/read-edid/
 Source0:	http://www.polypux.org/projects/read-edid/%{name}-%{version}.tar.gz
 License:	GPLv2
 Group:		System/Configuration/Other
